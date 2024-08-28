@@ -8,7 +8,7 @@ from collections import Counter
 # implement a function that modifies original train dataset and outputs the augmented trainloader
 from torch.utils.data import TensorDataset
 
-vae_model_path = "./outputs/vae_exp_fraud_vae.pt"
+vae_model_path = "../outputs/fraudulent_vae_checkpoint.pt" # modify this for other locations
 
 def augment_trainset(trainset, method):
 
